@@ -1,0 +1,9 @@
+package com.example.userapi.exception;
+
+public class UserNotFoundException extends RuntimeException{
+
+    public UserNotFoundException(String id){};
+
+
+
+}
